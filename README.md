@@ -111,10 +111,10 @@ This is the interesting part — the two metrics tell opposite stories.
 # ▶️ How to Run
 
 ```bash
-git clone https://github.com/Chaithanya449/Dimensionality-reduction-with-PCA-and-clustering-wines-using-K-Means..git
-cd Dimensionality-reduction-with-PCA-and-clustering-wines-using-K-Means.
+git clone https://github.com/Chaithanya449/wine-clustering-pca-experiment.git
+cd wine-clustering-pca-experiment
 pip install -r requirements.txt
-python dimensionality_reduction_with_pca_and_clustering_wines_using_k_means_.py
+python wine_pca_clustering.py
 ```
 
 > Ensure `wine.csv` is in the same directory as the script.
@@ -135,8 +135,8 @@ python dimensionality_reduction_with_pca_and_clustering_wines_using_k_means_.py
 # 📁 Project Structure
 
 ```
-Dimensionality-reduction-with-PCA-and-clustering-wines-using-K-Means./
-├── dimensionality_reduction_with_pca_and_clustering_wines_using_k_means_.py
+wine-clustering-pca-experiment/
+├── wine_pca_clustering.py
 ├── wine.csv          # Dataset (178 samples, 14 columns)
 └── README.md
 ```
